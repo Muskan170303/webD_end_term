@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+body{
+    background-color: rgba(168, 210, 220, 0.945);
+    height: 100vh; 
+    line-height: 5rem;   
+    margin: 15rem;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.358);
+    width: 95rem;
+    /* margin-top: 20rem;
+    margin-bottom: 20rem; */
+    padding-top:2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.main .header{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 5rem;
+}
+.main .header .logo{
+    line-height: 3rem;
+    color: black;
+    font-size: 4rem;
+    
+}
+#logo-sym{
+    font-size: larger;
+    font-weight: 800;
+    color: rgba(44, 52, 195, 0.915);
+}
+.navbar{
+    gap:2rem;
+}
+.navbar a{
+    color: black;
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:rgba(44, 52, 195, 0.915);
+}
+.logins{
+    height: 4rem;
+    color: rgba(44, 52, 195, 0.915);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#line{
+    font-size: 5rem;
+}
+.pro{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content:center;
+}
+#pro-pic{
+    border-radius: 50%;
+    height: 7rem;
+}
+.name{
+    display: inline;
+    color: rgba(44, 52, 195, 0.915);
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 1rem;
+}
+.mid{
+    background-color: white;
+}
+.mid .inline{
+    display: inline;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.mid .box{
+    border: 2px solid black;
+    border-radius: 5%;
+    font-size: 2rem;
+    padding: 5px;
+    font-weight:500 ;
+}
+.mid .btn{
+    height: 100%;
+    font-size: 1rem;
+}
+.grid1{
+    display: grid;
+    margin:100px auto;
+    padding:20px;
+    background-color: white;
+    grid-template-columns: repeat(4,2fr);
+}
+.element:nth-of-type(1){
+    grid-column: 1/2;
+}
+.element:nth-of-type(2){
+    grid-column:2/5;
+}
+.alert{
+    background-color:rgba(168, 210, 220, 0.945);
+    padding-left: 2rem;
+    line-height: 2rem;
+    padding: 1rem;
+}
+.drop{
+    color: black;
+    line-height: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.head1{
+    font-size: larger;
+}
+/* .grid2{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+} */
+/* .card:nth-of-type(1){
+    grid-column:1/2;
+}
+.card:nth-of-type(1){
+    grid-column:2/3;
+}
+.card:nth-of-type(1){
+    grid-column:3/4;
+} */
